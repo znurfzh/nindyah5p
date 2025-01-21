@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My H5P Content</title>
-    <link rel="stylesheet" href="path_to_h5p-standalone/css/h5p.css">
+    <link rel="stylesheet" href="h5p-standalone-3.8.0/dist/styles/h5p.css">
 </head>
 <body>
     <h1>Welcome to My H5P Content</h1>
     <p>Here is my interactive H5P content:</p>
     <div id="h5p-container"></div>
-    <script src="https://github.com/znurfzh/nindyah5p/tree/main/h5p-standalone-3.8.0/js/h5p-standalone.js"></script>
+    <script src="h5p-standalone-3.8.0/dist/main.bundle.js"></script>
     <script>
         const h5pContainer = document.getElementById('h5p-container');
-        new H5PStandalone.H5P(h5pContainer, 'https://github.com/znurfzh/nindyah5p/blob/main/LEARNING%20JOURNEY%20COMP.h5p');
+        new H5PStandalone.H5P(h5pContainer, 'LEARNING JOURNEY COMP.h5p');
     </script>
 </body>
 </html>
